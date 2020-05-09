@@ -4,6 +4,6 @@ const makeCall = buildMakeCall({makeDialer})
 
 export default makeCall
 
-function makeDialer() {
+function makeDialer(dialer) {
   console.log('esto es dialer')
 }
